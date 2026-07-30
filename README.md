@@ -79,7 +79,7 @@ datasheets/
 - [x] GitHub repository created
 - [x] Arduino development environment configured
 - [x] Blink test completed
-- [ ] System architecture
+- [x] System architecture
 - [ ] OLED interface
 - [ ] Battery simulation
 - [ ] Solar simulation
