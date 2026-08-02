@@ -80,7 +80,7 @@ datasheets/
 - [x] Arduino development environment configured
 - [x] Blink test completed
 - [x] System architecture
-- [ ] OLED interface
+- [x] OLED interface
 - [ ] Battery simulation
 - [ ] Solar simulation
 - [ ] EV charging algorithm
