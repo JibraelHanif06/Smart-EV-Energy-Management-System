@@ -1,0 +1,8 @@
+7/28/26
+Day 1
+Learned setup() and loop().
+Introduced variables.
+Used analogRead().
+Printed ADC values to Serial Monitor.
+Studied analog vs digital inputs.
+Learned ADC sampling and voltage divider operation.
