@@ -1,0 +1,31 @@
+- Integrated potentiometer with OLED display
+- Mapped ADC readings to simulated solar output (0–5000 W)
+- Resolved I²C pin conflict by moving analog input from A5 to A0
+- Added real-time dashboard updates
+- 2 hour debugging code then hardware then using serial comms to do checks to verify whats working then going back to fix hardware and code accordingly
+
+## Module 3 — Solar Generation Simulator
+
+### Objective
+Create a live dashboard that simulates solar generation using a potentiometer.
+
+### Hardware
+- Arduino UNO R4 WiFi
+- SSD1306 OLED Display
+- 10k Potentiometer
+
+### Concepts Learned
+- ADC (Analog-to-Digital Conversion)
+- Mapping sensor values
+- I²C communication
+- Real-time display updates
+- Hardware resource conflicts
+
+### Features
+- Live solar output
+- 0–5000 W simulation
+- OLED dashboard
+- Smooth updates
+
+### Engineering Lesson
+Avoid sharing analog pins used by I²C peripherals. The potentiometer signal was moved from A5 to A0 to eliminate a communication conflict.
