@@ -1,0 +1,33 @@
+## Module 4 – Battery Energy Storage System (BESS)
+
+### Objective
+Develop a simulated Battery Energy Storage System (BESS) that responds dynamically to available solar generation while introducing embedded control logic and time-based system updates.
+
+### Features
+- Simulated Battery State of Charge (SOC)
+- Initial battery charge set to 50%
+- Battery charges when sufficient solar energy is available
+- Battery discharges during low solar conditions
+- Battery SOC limited between 0% and 100%
+- Battery updates once per second using `millis()` for non-blocking timing
+
+### Concepts Learned
+- State variables
+- State of Charge (SOC)
+- Conditional logic (`if` statements)
+- Non-blocking programming with `millis()`
+- Embedded system scheduling
+- Battery simulation
+- Control algorithms
+- Real-time system behavior
+
+### Engineering Decisions
+Instead of using fixed delays (`delay()`), the battery is updated using a non-blocking timer based on `millis()`. This allows multiple subsystems (battery management, display updates, sensors, and future Wi-Fi communication) to operate simultaneously without freezing the controller.
+
+### Skills Demonstrated
+- Embedded C++
+- Battery management concepts
+- Real-time firmware design
+- Algorithm development
+- State machine fundamentals
+- Embedded timing techniques
