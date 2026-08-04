@@ -81,8 +81,8 @@ datasheets/
 - [x] Blink test completed
 - [x] System architecture
 - [x] OLED interface
-- [ ] Battery simulation
-- [ ] Solar simulation
+- [x] Battery simulation
+- [x] Solar simulation
 - [ ] EV charging algorithm
 - [ ] Wi-Fi dashboard
 - [ ] PCB design
