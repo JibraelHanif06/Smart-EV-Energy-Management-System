@@ -24,10 +24,10 @@ Map ADC readings to simulated solar power
 ✅ Module 4 — Battery Energy Storage System
 Battery state of charge, charge/discharge logic, millis() timing
 
-Module 5 — Facility Load Management
+✅ Module 5 — Facility Load Management
 Residential or commercial building load, excess/deficit power
 
-Module 6 — EV Charging Controller
+🟡 Module 6 — EV Charging Controller
 EV connection, charging power, EV state of charge, pause/start logic
 
 Module 7 — Energy Allocation Algorithm
