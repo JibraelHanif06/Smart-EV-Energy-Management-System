@@ -1,0 +1,48 @@
+## Module 6 – EV Charging Controller
+
+### Objective
+Introduce a simulated Electric Vehicle (EV) charging subsystem that integrates with the existing energy management system while respecting battery reserve requirements and available solar energy.
+
+### Features
+- Simulated EV connection status
+- Simulated EV State of Charge (SOC)
+- EV charging state (Charging / Waiting / Disconnected)
+- Configurable EV charging power
+- Battery reserve protection before EV charging
+- OLED displays EV charging status and SOC
+
+### Engineering Problem
+When both the facility battery and an EV require charging, the controller must determine which receives available solar energy first while ensuring the facility maintains sufficient backup energy.
+
+### Solution
+A priority-based charging strategy was implemented. The controller first maintains the Battery Energy Storage System (BESS) reserve before permitting EV charging. Once the reserve threshold is satisfied and sufficient excess solar power is available, the EV charging process begins.
+
+### Concepts Learned
+- Multi-subsystem control
+- Priority-based decision making
+- Boolean state variables
+- Embedded control logic
+- Energy allocation strategies
+- System architecture
+
+### Skills Demonstrated
+- Embedded C++
+- State-based programming
+- Energy management algorithms
+- EV charging concepts
+- Real-time decision making
+- OLED user interface integration
+
+### Current Version 1 Energy Allocation Policy
+
+1. Supply facility load.
+2. Maintain a 30% BESS reserve.
+3. Charge the EV when sufficient excess solar power exists.
+4. Continue charging the BESS toward 100%.
+5. Export any remaining energy to the grid (future module).
+
+### Design Philosophy
+
+> **Every watt has a destination.**
+
+The controller accounts for all available energy by allocating power according to system priorities rather than using fixed charging thresholds.
