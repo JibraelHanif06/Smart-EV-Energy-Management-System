@@ -1,0 +1,16 @@
+## Module 5 – Facility Load Management
+
+### Objective
+Introduce simulated facility power consumption and calculate available excess solar energy.
+
+### Features
+- Simulated facility load
+- Real-time excess power calculation
+- Battery charging based on surplus energy
+- Battery discharging during energy deficits
+
+### Concepts Learned
+- Energy balance
+- Power allocation
+- Embedded decision making
+- Priority-based control
