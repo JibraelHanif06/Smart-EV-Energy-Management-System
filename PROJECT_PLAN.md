@@ -12,16 +12,16 @@ The goal is to simulate a smart home energy management system that integrates:
 
 Updated module plan:
 
-Module 1 — Analog Input Fundamentals
-Potentiometer, ADC, Serial Monitor
+✅ Module 1 — Analog Input Fundamentals
+Potentiometer, ADC, Serial Monitor 
 
-Module 2 — OLED Display Integration
+✅ Module 2 — OLED Display Integration
 I²C, SSD1306, display buffering
 
-Module 3 — Solar Generation Simulator
+✅ Module 3 — Solar Generation Simulator
 Map ADC readings to simulated solar power
 
-Module 4 — Battery Energy Storage System
+✅ Module 4 — Battery Energy Storage System
 Battery state of charge, charge/discharge logic, millis() timing
 
 Module 5 — Facility Load Management
