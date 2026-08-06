@@ -81,7 +81,7 @@ datasheets/
 - [x] OLED interface
 - [x] Battery simulation
 - [x] Solar simulation
-- [ ] EV charging algorithm
+- [x] EV charging algorithm
 - [ ] Wi-Fi dashboard
 - [ ] PCB design
 - [ ] Final prototype
