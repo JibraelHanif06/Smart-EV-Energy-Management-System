@@ -46,3 +46,29 @@ A priority-based charging strategy was implemented. The controller first maintai
 > **Every watt has a destination.**
 
 The controller accounts for all available energy by allocating power according to system priorities rather than using fixed charging thresholds.
+Module 6 Summary
+Objective
+
+Implement an EV Charging Controller that intelligently manages EV charging while protecting facility battery reserves.
+
+What We Built
+✅ Simulated EV connection
+✅ Simulated EV State of Charge (SOC)
+✅ EV charging logic
+✅ Battery reserve protection (30%)
+✅ Priority-based energy allocation
+✅ System status display
+✅ OLED integration
+Engineering Decisions:
+Facility load always has first priority.
+Maintain a minimum 30% battery reserve.
+Charge the EV only after the reserve is protected.
+Use remaining power to continue charging the BESS.
+Every controller decision updates the user-facing status.
+Concepts Learned:
+Boolean state variables
+Embedded controller design
+Priority-based decision making
+Power budgeting
+State reporting
+Non-blocking timing with millis()
