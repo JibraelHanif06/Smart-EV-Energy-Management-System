@@ -27,10 +27,10 @@ Battery state of charge, charge/discharge logic, millis() timing
 ✅ Module 5 — Facility Load Management
 Residential or commercial building load, excess/deficit power
 
-🟡 Module 6 — EV Charging Controller
+✅ Module 6 — EV Charging Controller
 EV connection, charging power, EV state of charge, pause/start logic
 
-Module 7 — Energy Allocation Algorithm
+🟡 Module 7 — Energy Allocation Algorithm
 Prioritize facility load, reserve battery, EV charging, battery top-up, grid export
 
 Module 8 — Grid and Demand Management
