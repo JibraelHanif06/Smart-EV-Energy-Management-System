@@ -2,9 +2,7 @@
 
 ## Overview
 
-The Smart EV Energy Management System is an embedded systems project that simulates a modern residential energy management system. Built using the Arduino UNO R4 WiFi, the project models how solar generation, facility battery storage, facility electrical loads, grid power, and electric vehicle charging interact within a smart home.
-
-The objective is to apply embedded systems programming, IoT communication, and power systems concepts to create an intelligent energy management platform suitable for educational and portfolio purposes.
+The Smart EV Energy Management System (EMS) is a modular embedded systems project that simulates real-time energy management for residential and commercial facilities. The controller monitors simulated solar generation, facility demand, battery storage, EV charging, and future grid interaction while allocating energy using a Priority-Based Energy Allocation Algorithm. The project is developed incrementally, with each module introducing new embedded systems concepts and engineering design decisions.
 
 ---
 
